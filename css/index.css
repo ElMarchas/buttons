@@ -1,0 +1,52 @@
+/* Patron de color recomendado https://mycolor.space/?hex=%23456CC0&sub=1
+ #456CC0 
+ #6B69B9
+ #B26DC2  
+ #FA74A8
+ #FF9382
+ #FFC466
+ #F9F871
+ */
+
+body {
+  background-color: rgb(24, 25, 26);
+  color: #F9F871;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #202021;
+  margin: auto;
+  border: 2px solid #B26DC2;
+  border-radius: 10px;
+  width: 620px;
+  max-width: 1200px;
+}
+
+.element {
+  display: flex;
+  background-color: #456cc0;
+  margin: 10px;
+  padding: 5px;
+  width: 280px;
+  min-height: 80px;
+  max-width: 280px;
+  border: 1px solid #6B69B9;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.element button {
+  height: 40px;
+  border: 1px solid #AF6992;
+  border-radius: 9px;
+  background-color: #9866A6;
+  color: #E8EFFF;
+}
+
+.counter{
+  cursor: pointer;
+}
